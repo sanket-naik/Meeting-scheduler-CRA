@@ -1,0 +1,58 @@
+.block{
+    border: 1px solid #f0f0f0;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cardWrap{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 18px;
+}
+
+.cards{
+    text-align: left;
+}
+
+.active{
+    color: green;
+}
+
+.mainHeader{
+    box-shadow: 0px 0px 10px #aab7a4;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.labelName{
+    width: 100px;
+}
+
+.BlockInputs{
+    margin:15px 0px
+}
+
+.buildingdrop{
+    padding-left: 10px;
+    padding-top: 3px;
+    color: green;
+}
+
+@media(max-width:720px){
+    .cardWrap{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block{
+        width: 90%;
+    }
+}
